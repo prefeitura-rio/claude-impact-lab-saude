@@ -1,29 +1,63 @@
-# Claude Impact Lab 2026 | Dataset Saúde do Rio
+<div align="center">
 
-> *Disclaimer*: todos os dados do desafio passaram por processo de anonimização, com tecnicas de aleatorização, generalização e supressão. Dessa forma, indicadores gerados a partir dos dados não representam a realidade. Os dados apenas ilustram as dinâmicas. Para conhecer mais sobre o processo, veja no final do arquivo.
+# 🏥 Claude Impact Lab 2026
+## Dataset Saúde do Rio
 
-## Acesso Rápido
+[![Claude](https://img.shields.io/badge/Claude-Impact%20Lab-5436DA?style=for-the-badge&logo=anthropic&logoColor=white)](https://www.anthropic.com)
+[![Rio de Janeiro](https://img.shields.io/badge/Prefeitura-Rio%20de%20Janeiro-1E3A8A?style=for-the-badge)](https://www.rio.rj.gov.br)
+[![Dados Abertos](https://img.shields.io/badge/Dados-Anonimizados-10B981?style=for-the-badge)](https://github.com)
 
-|Tabela|Descrição|Link do Dado Anonimizado (Formato PARQUET)|
-|--|--|--|
-|Cadastros|Os cadastros de milhares de pacientes|https://drive.google.com/file/d/1xqUFT-xn1RUYe8k68DK93Dp5AXXYLIp0/view?usp=drive_link|
-|Consultas Agendadas (Reguladas)|As marcações de consultas, que foram reguladas no municipio|https://drive.google.com/file/d/1uhtL47LNV94R8E-G7MHCXmTBQwgi74Z0/view?usp=drive_link|
-|Atendimentos de Urgência, Emergência e Hospitais|As idas em unidades de urgência, emergência e hospitais|https://drive.google.com/file/d/1fwVamtyoWE5bpfNZ5pH2Db_TRrtgnwrp/view?usp=drive_link|
-|Visitas dos ACS|O histórico de visitas dos ACS|https://drive.google.com/file/d/1xqtVMZPQl9418oKfSrTzm0PmqbV2zHcX/view?usp=drive_link|
-|Profissionais ACS|A vinculação dos ACS em termos de equipe e unidade|https://drive.google.com/file/d/1FTk_llakSQMp_sjQMBVrsYyJFbaGszpw/view?usp=drive_link|
+</div>
 
-### Outros Material de Apoio
+---
 
-- Manuais do ACS: 
-    - Manual do ACS (Ministério da Saúde): http://189.28.128.100/dab/docs/publicacoes/geral/manual_acs.pdf
-    - Guia Prático do ACS (Ministério da Saúde): http://189.28.128.100/dab/docs/publicacoes/geral/guia_acs.pdf
-- Fichas dos ACS: Link em breve
-- Principal Repositório de Materiais do Município: https://bibliotecasus.subpav.org/
-- Alguns exemplos:
-  - https://subpav.org/aps/uploads/publico/repositorio/SMS_ViolenciasPapelACS_A5_v2.pdf
-  - https://subpav.org/aps/uploads/publico/repositorio/cartilha-do-agente-comunitario-2014.pdf
-  - https://subpav.org/aps/uploads/publico/repositorio/Livro_EnfrentamentoCancerColoUteroMama_PDFDigital_20221101_(2).pdf
-  - Etc
+> ### ⚠️ **Aviso Importante**
+> 
+> Todos os dados do desafio passaram por rigoroso **processo de anonimização**, utilizando técnicas de aleatorização, generalização e supressão. 
+> 
+> **Indicadores gerados a partir dos dados NÃO representam a realidade**. Os dados apenas ilustram as dinâmicas do sistema de saúde. 
+> 
+> 📖 Para conhecer mais sobre o processo de anonimização, veja a [seção específica](#processo-de-anonimização) ao final deste documento.
+
+---
+
+## 📊 Acesso Rápido aos Dados
+
+<div align="center">
+
+| 🗂️ **Tabela** | 📝 **Descrição** | 🔗 **Download (PARQUET)** |
+|:--------------|:-----------------|:--------------------------|
+| **Cadastros** | Os cadastros de milhares de pacientes | [📥 Download](https://drive.google.com/file/d/1xqUFT-xn1RUYe8k68DK93Dp5AXXYLIp0/view?usp=drive_link) |
+| **Consultas Agendadas** | As marcações de consultas reguladas no município | [📥 Download](https://drive.google.com/file/d/1uhtL47LNV94R8E-G7MHCXmTBQwgi74Z0/view?usp=drive_link) |
+| **Atendimentos de Urgência** | As idas em unidades de urgência, emergência e hospitais | [📥 Download](https://drive.google.com/file/d/1fwVamtyoWE5bpfNZ5pH2Db_TRrtgnwrp/view?usp=drive_link) |
+| **Visitas dos ACS** | O histórico de visitas dos Agentes Comunitários de Saúde | [📥 Download](https://drive.google.com/file/d/1xqtVMZPQl9418oKfSrTzm0PmqbV2zHcX/view?usp=drive_link) |
+| **Profissionais ACS** | A vinculação dos ACS em termos de equipe e unidade | [📥 Download](https://drive.google.com/file/d/1FTk_llakSQMp_sjQMBVrsYyJFbaGszpw/view?usp=drive_link) |
+
+</div>
+
+---
+
+## 📚 Materiais de Apoio
+
+### 📖 Manuais do ACS (Ministério da Saúde)
+
+- 📘 [Manual do Agente Comunitário de Saúde](http://189.28.128.100/dab/docs/publicacoes/geral/manual_acs.pdf)
+- 📗 [Guia Prático do ACS](http://189.28.128.100/dab/docs/publicacoes/geral/guia_acs.pdf)
+
+### 📋 Outros Recursos
+
+- 🗂️ **Fichas dos ACS**: _Link em breve_
+- 🏛️ **[Repositório Principal do Município](https://bibliotecasus.subpav.org/)**
+
+### 📑 Exemplos de Publicações
+
+- 🚨 [Violências e Papel dos ACS](https://subpav.org/aps/uploads/publico/repositorio/SMS_ViolenciasPapelACS_A5_v2.pdf)
+- 👥 [Cartilha do Agente Comunitário (2014)](https://subpav.org/aps/uploads/publico/repositorio/cartilha-do-agente-comunitario-2014.pdf)
+- 🎗️ [Enfrentamento ao Câncer de Colo de Útero e Mama](https://subpav.org/aps/uploads/publico/repositorio/Livro_EnfrentamentoCancerColoUteroMama_PDFDigital_20221101_(2).pdf)
+
+---
+
+## 🎯 O Desafio
 
 ## Inteligência no Território — Otimizando o Planejamento de Visitas Domiciliares dos Agentes Comunitários de Saúde
 
@@ -69,28 +103,61 @@
     * mais famílias visitadas por turno;
     * menos emergências evitáveis.
 
+---
 
-## Processo de Anonimização
+## 🔒 Processo de Anonimização
 
 Os dados são anonimizados, somando uma série de técnicas para robustez e segurança dos dados:
 
-1. Hash Criptográfico (SHA256) - Geração de Chave artificial para integração de tabelas. Criação a partir de hash SHA256 com hash secret.
-2. Amostragem Cadastral - representa uma amostragem de 2000 paciente por equipe. Equipes com menos de 2000 pacientes foram suprimidas.
-3. Date Shifting - Deslocamento aleatório de dias nas datas de eventos, variando de paciente em paciente, mas mantendo ordem sequancial de eventos.
-4. Anonimização Geográfica - Adição de até 100m de ruído aleatório nas coordenadas
-5. Randomização de Endereços - Embaralhamento de endereços, mas mantendo lógica territorial de equipe.
-6. Generalização e Agregação de Campos - Faixas etárias, categorias de raça/cor, agregação temporal
-7. Outras Supressões - Remoção de procedimentos raros (<1000 ocorrências) e registros com k-anonymity abaixo de 5.
+### 🛡️ Técnicas Aplicadas
 
-### Impactos
-- Indicadores gerados a partir dos dados não representam a realidade.
-- O mapeamento no dataset de características com a posição do território não representa a realidade. É um mapeamento aleatório. O mapeamento de características com equipe também foi aleatorizado.
-- O dia das visitas e procedimentos não representam a realidade, mas a sequência dos fatos.
-- Os endereços possuem um ruído de generalização de 100 metros.
-- Os dados não representam toda a população, mas uma amostra dela.
+| 🔧 Técnica | 📝 Descrição |
+|:-----------|:-------------|
+| 🔐 **Hash Criptográfico (SHA256)** | Geração de chave artificial para integração de tabelas via hash SHA256 com secret |
+| 📊 **Amostragem Cadastral** | Amostra de 2.000 pacientes por equipe. Equipes com menos foram suprimidas |
+| 📅 **Date Shifting** | Deslocamento aleatório de dias (varia por paciente, mantém ordem sequencial) |
+| 📍 **Anonimização Geográfica** | Adição de até **100m de ruído** aleatório nas coordenadas |
+| 🏠 **Randomização de Endereços** | Embaralhamento de endereços mantendo lógica territorial de equipe |
+| 📈 **Generalização e Agregação** | Faixas etárias, categorias de raça/cor, agregação temporal |
+| 🚫 **Supressões** | Remoção de procedimentos raros (<1000) e registros com k-anonymity <5 |
 
+---
 
-# Referências
-- [HIPAA Safe Harbor Method](https://www.hhs.gov/hipaa/for-professionals/privacy/special-topics/de-identification/index.html)
-- [Differential Privacy](https://en.wikipedia.org/wiki/Differential_privacy)
-- [K-Anonymity](https://en.wikipedia.org/wiki/K-anonymity)
+### ⚠️ Impactos da Anonimização
+
+> **IMPORTANTE:** Entenda as limitações dos dados para interpretação correta
+
+#### ❌ **O que NÃO representa a realidade:**
+
+- 📊 Indicadores absolutos
+- 🗺️ Mapeamento territorial exato
+- 📍 Localização precisa
+- 👥 População total
+- 📅 Datas exatas de eventos
+
+#### ✅ **O que está preservado:**
+
+- 🔄 Sequência temporal dos eventos
+- 🏘️ Lógica territorial (com ruído)
+- 📈 Dinâmicas do sistema
+- 🔗 Relações entre tabelas
+- 🎯 Principais Padrões de comportamento
+
+#### 📋 Detalhamento dos Impactos
+
+- 🎲 **Generalização espacial**: ~100m de ruído nas coordenadas
+- 🔀 **Mapeamento aleatorizado**: Características vs território/equipe são randômicos
+- ⏱️ **Sequência preservada**: Ordem dos eventos mantida, datas deslocadas
+- 📊 **Amostra populacional**: Não representa toda a população do Rio
+
+---
+
+## 📚 Referências Técnicas
+
+### 🔬 Metodologias de Anonimização
+
+| Metodologia | Descrição | Link |
+|:------------|:----------|:-----|
+| 🏥 **HIPAA Safe Harbor Method** | Método de des-identificação certificado pelo governo dos EUA | [📖 Documentação](https://www.hhs.gov/hipaa/for-professionals/privacy/special-topics/de-identification/index.html) |
+| 🔐 **Differential Privacy** | Técnica matemática para proteção de privacidade | [📖 Wikipedia](https://en.wikipedia.org/wiki/Differential_privacy) |
+| 🛡️ **K-Anonymity** | Modelo de privacidade por generalização | [📖 Wikipedia](https://en.wikipedia.org/wiki/K-anonymity) |
