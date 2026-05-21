@@ -71,3 +71,9 @@ Os dados são anonimizados, somando uma série de técnicas para robustez e segu
 5. Randomização de Endereços - Embaralhamento de endereços, mas mantendo lógica territorial de equipe.
 6. Generalização de Campos - Faixas etárias, categorias de raça/cor, agregação temporal
 7. Supressão de Registros - Remoção de procedimentos raros (<1000 ocorrências) e registros com k-anonymity abaixo de 5.
+
+
+# Referências
+- [HIPAA Safe Harbor Method](https://www.hhs.gov/hipaa/for-professionals/privacy/special-topics/de-identification/index.html)
+- [Differential Privacy](https://en.wikipedia.org/wiki/Differential_privacy)
+- [K-Anonymity](https://en.wikipedia.org/wiki/K-anonymity)
