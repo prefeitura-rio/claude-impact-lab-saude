@@ -1,6 +1,6 @@
 # Claude Impact Lab 2026 | Dataset Saúde do Rio
 
-> *Disclaimer*: todos os dados do desafio passaram por processo de anonimização. Para conhecer mais sobre o processo, veja no final do arquivo
+> *Disclaimer*: todos os dados do desafio passaram por processo de anonimização, com tecnicas de aleatorização, generalização e supressão. Dessa forma, indicadores gerados a partir dos dados não representam a realidade. Os dados apenas ilustram as dinâmicas. Para conhecer mais sobre o processo, veja no final do arquivo.
 
 ## Acesso Rápido
 
@@ -10,6 +10,7 @@
 |Consultas Agendadas (Reguladas)|As marcações de consultas, que foram reguladas no municipio|Em breve|
 |Atendimentos de Urgência, Emergência e Hospitais|As idas em unidades de urgência, emergência e hospitais|Em breve|
 |Visitas dos ACS|O histórico de visitas dos ACS|Em breve|
+|Profissionais ACS|A vinculação dos ACS em termos de equipe e unidade|Em breve|
 
 ### Material de Apoio
 
@@ -63,14 +64,22 @@
 
 ## Processo de Anonimização
 
-Os dados são anonimizados, somando uma série de técnicas para robustez e segurança dos dados.
+Os dados são anonimizados, somando uma série de técnicas para robustez e segurança dos dados:
 
 1. Hash Criptográfico (SHA256) - Geração de Chave artificial para integração de tabelas. Criação a partir de hash SHA256 com hash secret.
+2. Amostragem Cadastral - representa uma amostragem de 2000 paciente por equipe. Equipes com menos de 2000 pacientes foram suprimidas.
 3. Date Shifting - Deslocamento aleatório de dias nas datas de eventos, variando de paciente em paciente, mas mantendo ordem sequancial de eventos.
-4. Ruído Geográfico - Adição de até 100m de ruído aleatório nas coordenadas
+4. Anonimização Geográfica - Adição de até 100m de ruído aleatório nas coordenadas
 5. Randomização de Endereços - Embaralhamento de endereços, mas mantendo lógica territorial de equipe.
-6. Generalização de Campos - Faixas etárias, categorias de raça/cor, agregação temporal
-7. Supressão de Registros - Remoção de procedimentos raros (<1000 ocorrências) e registros com k-anonymity abaixo de 5.
+6. Generalização e Agregação de Campos - Faixas etárias, categorias de raça/cor, agregação temporal
+7. Outras Supressões - Remoção de procedimentos raros (<1000 ocorrências) e registros com k-anonymity abaixo de 5.
+
+### Impactos
+- Indicadores gerados a partir dos dados não representam a realidade.
+- O mapeamento no dataset de características com a posição do território não representa a realidade. É um mapeamento aleatório. O mapeamento de características com equipe também foi aleatorizado.
+- O dia das visitas e procedimentos não representam a realidade, mas a sequência dos fatos.
+- Os endereços possuem um ruído de generalização de 100 metros.
+- Os dados não representam toda a população, mas uma amostra dela.
 
 
 # Referências
