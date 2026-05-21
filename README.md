@@ -4,18 +4,26 @@
 
 ## Acesso Rápido
 
-|Tabela|Descrição|Link do Dado Anonimizado|
+|Tabela|Descrição|Link do Dado Anonimizado (Formato PARQUET)|
 |--|--|--|
-|Cadastros|Os cadastros de milhares de pacientes|Em breve|
-|Consultas Agendadas (Reguladas)|As marcações de consultas, que foram reguladas no municipio|Em breve|
-|Atendimentos de Urgência, Emergência e Hospitais|As idas em unidades de urgência, emergência e hospitais|Em breve|
-|Visitas dos ACS|O histórico de visitas dos ACS|Em breve|
-|Profissionais ACS|A vinculação dos ACS em termos de equipe e unidade|Em breve|
+|Cadastros|Os cadastros de milhares de pacientes|https://drive.google.com/file/d/1xqUFT-xn1RUYe8k68DK93Dp5AXXYLIp0/view?usp=drive_link|
+|Consultas Agendadas (Reguladas)|As marcações de consultas, que foram reguladas no municipio|https://drive.google.com/file/d/1uhtL47LNV94R8E-G7MHCXmTBQwgi74Z0/view?usp=drive_link|
+|Atendimentos de Urgência, Emergência e Hospitais|As idas em unidades de urgência, emergência e hospitais|https://drive.google.com/file/d/1fwVamtyoWE5bpfNZ5pH2Db_TRrtgnwrp/view?usp=drive_link|
+|Visitas dos ACS|O histórico de visitas dos ACS|https://drive.google.com/file/d/1xqtVMZPQl9418oKfSrTzm0PmqbV2zHcX/view?usp=drive_link|
+|Profissionais ACS|A vinculação dos ACS em termos de equipe e unidade|https://drive.google.com/file/d/1FTk_llakSQMp_sjQMBVrsYyJFbaGszpw/view?usp=drive_link|
 
-### Material de Apoio
+### Outros Material de Apoio
 
-- Manual do ACS: Link em breve
+- Manuais do ACS: 
+    - Manual do ACS (Ministério da Saúde): http://189.28.128.100/dab/docs/publicacoes/geral/manual_acs.pdf
+    - Guia Prático do ACS (Ministério da Saúde): http://189.28.128.100/dab/docs/publicacoes/geral/guia_acs.pdf
 - Fichas dos ACS: Link em breve
+- Principal Repositório de Materiais do Município: https://bibliotecasus.subpav.org/
+- Alguns exemplos:
+  - https://subpav.org/aps/uploads/publico/repositorio/SMS_ViolenciasPapelACS_A5_v2.pdf
+  - https://subpav.org/aps/uploads/publico/repositorio/cartilha-do-agente-comunitario-2014.pdf
+  - https://subpav.org/aps/uploads/publico/repositorio/Livro_EnfrentamentoCancerColoUteroMama_PDFDigital_20221101_(2).pdf
+  - Etc
 
 ## Inteligência no Território — Otimizando o Planejamento de Visitas Domiciliares dos Agentes Comunitários de Saúde
 
