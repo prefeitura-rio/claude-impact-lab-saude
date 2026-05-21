@@ -1,11 +1,9 @@
 <div align="center">
 
-# 🏥 Claude Impact Lab 2026
-## Dataset Saúde do Rio
+# 🏥 Claude Impact Lab 2026 | Dataset Saúde do Rio
 
 [![Claude](https://img.shields.io/badge/Claude-Impact%20Lab-5436DA?style=for-the-badge&logo=anthropic&logoColor=white)](https://www.anthropic.com)
-[![Rio de Janeiro](https://img.shields.io/badge/Prefeitura-Rio%20de%20Janeiro-1E3A8A?style=for-the-badge)](https://www.rio.rj.gov.br)
-[![Dados Abertos](https://img.shields.io/badge/Dados-Anonimizados-10B981?style=for-the-badge)](https://github.com)
+[![Rio de Janeiro](https://img.shields.io/badge/Prefeitura-Rio%20de%20Janeiro-1E3A8A?style=for-the-badge)](https://prefeitura.rio/)
 
 </div>
 
