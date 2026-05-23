@@ -101,6 +101,107 @@
     * mais famílias visitadas por turno;
     * menos emergências evitáveis.
 
+
+---
+## 📘 Dicionário de Dados
+
+### Modelo de Dados
+
+```mermaid
+erDiagram
+    equipes ||--o{ pacientes : "responsável por"
+    pacientes ||--o{ visitas : "recebe"
+    pacientes ||--o{ eventos_clinicos : "tem"
+    
+    equipes {
+        string equipe_id PK
+        float endereco_latitude
+        float endereco_longitude
+    }
+    
+    pacientes {
+        string paciente_id PK
+        string equipe_id FK
+        string unidade_id
+        string faixa_etaria
+        string sexo
+        string raca_cor
+        boolean situacao_vulnerabilidade
+        float endereco_longitude
+        float endereco_latitude
+        boolean hipertenso
+        boolean diabetico
+        boolean gestacao
+    }
+    
+    visitas {
+        string profissional_id
+        date registrados_em
+        integer ordem_visita_dia
+        string paciente_id FK
+    }
+    
+    eventos_clinicos {
+        string paciente_id FK
+        string tipo
+        date data_referencia
+    }
+```
+
+### equipes.csv
+Cadastro de equipes de saúde e suas localizações.
+
+| Coluna | Tipo | Descrição |
+|--------|------|-----------|
+| equipe_id | string | Identificador único da equipe (hash) |
+| endereco_latitude | float | Latitude da localização da unidade de saúde em que a equipe faz parte. Os ACS sempre começam aqui. |
+| endereco_longitude | float | Longitude da localização da unidade de saúde em que a equipe faz parte. Os ACS sempre começam aqui. |
+
+### eventos_clinicos.csv
+Registro de eventos clínicos dos pacientes.
+
+| Coluna | Tipo | Descrição |
+|--------|------|-----------|
+| paciente_id | string | Identificador único do paciente (hash) |
+| tipo | string | Tipo do evento clínico (ex: agendamento) |
+| data_referencia | date | Data de referência do evento (formato: YYYY-MM-DD) |
+
+### pacientes.csv
+Cadastro completo dos pacientes com informações demográficas e clínicas.
+
+| Coluna | Tipo | Descrição |
+|--------|------|-----------|
+| paciente_id | string | Identificador único do paciente (hash) |
+| equipe_id | string | Identificador da equipe responsável (hash) |
+| unidade_id | string | Identificador da unidade de saúde (hash) |
+| faixa_etaria | string | Faixa etária do paciente (ex: 0-6) |
+| sexo | string | Sexo do paciente (Masculino/Feminino) |
+| raca_cor | string | Raça/cor declarada (Branca/Preta/Parda) |
+| situacao_vulnerabilidade | boolean | Indica se paciente está em situação de vulnerabilidade |
+| endereco_longitude | float | Longitude do endereço do paciente |
+| endereco_latitude | float | Latitude do endereço do paciente |
+| hipertenso | boolean | Indica se paciente é hipertenso |
+| diabetico | boolean | Indica se paciente é diabético |
+| gestacao | boolean | Indica se paciente está gestante |
+
+### visitas.csv
+Registro de visitas realizadas por profissionais de saúde.
+
+| Coluna | Tipo | Descrição |
+|--------|------|-----------|
+| profissional_id | string | Identificador único do profissional (hash) |
+| registrados_em | date | Data em que a visita foi registrada (formato: YYYY-MM-DD) |
+| ordem_visita_dia | integer | Ordem sequencial da visita no dia |
+| paciente_id | string | Identificador do paciente visitado (hash) |
+
+---
+
+## Desafios Bônus
+Finalizou tudo e quer mais?
+
+- Para gestão: construir visualizações importantes para os gestores das unidades? Ou mesmo o gestor da área programática
+- Para o ACS: detectar lacunas de cuidado e melhorias em acompanhamentos que indiquem respostas mais rápidas (ou mesmo menos reativas)
+
 ---
 
 ## 🔒 Processo de Anonimização
