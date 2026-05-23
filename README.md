@@ -25,11 +25,10 @@
 
 | 🗂️ **Tabela** | 📝 **Descrição** | 🔗 **Download (PARQUET)** |
 |:--------------|:-----------------|:--------------------------|
-| **Cadastros** | Os cadastros de milhares de pacientes | [📥 Download](https://drive.google.com/file/d/1xqUFT-xn1RUYe8k68DK93Dp5AXXYLIp0/view?usp=drive_link) |
-| **Consultas Agendadas** | As marcações de consultas reguladas no município | [📥 Download](https://drive.google.com/file/d/1uhtL47LNV94R8E-G7MHCXmTBQwgi74Z0/view?usp=drive_link) |
-| **Atendimentos de Urgência** | As idas em unidades de urgência, emergência e hospitais | [📥 Download](https://drive.google.com/file/d/1fwVamtyoWE5bpfNZ5pH2Db_TRrtgnwrp/view?usp=drive_link) |
-| **Visitas dos ACS** | O histórico de visitas dos Agentes Comunitários de Saúde | [📥 Download](https://drive.google.com/file/d/1xqtVMZPQl9418oKfSrTzm0PmqbV2zHcX/view?usp=drive_link) |
-| **Profissionais ACS** | A vinculação dos ACS em termos de equipe e unidade | [📥 Download](https://drive.google.com/file/d/1FTk_llakSQMp_sjQMBVrsYyJFbaGszpw/view?usp=drive_link) |
+| **Cadastros de Pacientes** | Os cadastros de milhares de pacientes | [📥 Download](https://drive.google.com/file/d/1cRvsx5poNTi4EOfWHYvilSDF4_i6hcZy/view?usp=drive_link) |
+| **Eventos Clínicos** | As consultas agendadas (via regulação, que devem ser informadas aos pacientes) e as idas em unidades de urgência, emergência e hospitais (que indicam uma necessidade de contato mais próximo) | [📥 Download](https://drive.google.com/file/d/1rcWQbi_vA_RAnXLQV79oe4Z2mql8cn3_/view?usp=drive_link) |
+| **Visitas dos ACS** | O histórico de visitas dos Agentes Comunitários de Saúde | [📥 Download](https://drive.google.com/file/d/1dKJ8BpqrmsFNQoVcs9tjJ-Gaag1WzCML/view?usp=drive_link) |
+| **Equipes de Saúde** | A relação das equipes e unidades, além de ter a localização da sede. | [📥 Download](https://drive.google.com/file/d/1h8DijXrZM_hnhYMAdkggp5mnb2zckFOW/view?usp=drive_link) |
 
 </div>
 
@@ -41,10 +40,6 @@
 
 - 📘 [Manual do Agente Comunitário de Saúde](http://189.28.128.100/dab/docs/publicacoes/geral/manual_acs.pdf)
 - 📗 [Guia Prático do ACS](http://189.28.128.100/dab/docs/publicacoes/geral/guia_acs.pdf)
-
-### 📋 Outros Recursos
-
-- 🗂️ **Fichas dos ACS**: _Link em breve_
 - 🏛️ **[Repositório Principal do Município](https://bibliotecasus.subpav.org/)**
 
 ### 📑 Exemplos de Publicações
