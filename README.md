@@ -37,6 +37,7 @@
 ## 📚 Materiais de Apoio
 
 - Apresentação: [Acessar](https://docs.google.com/presentation/d/1hf5jq8iFGiDaf3u5UA4Jtd7wQ7eWWchfEn6Fvm0ArOM/edit?usp=sharing)
+- Briefing: [Acessar](https://docs.google.com/document/d/1hwk6J7hjSNvCJL2QLxpYUdCjB7u1ec3A/edit?usp=drivesdk&ouid=106557418309843613513&rtpof=true&sd=true)
 
 ### 📖 Manuais do ACS (Ministério da Saúde)
 
