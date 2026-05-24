@@ -36,6 +36,8 @@
 
 ## 📚 Materiais de Apoio
 
+- Apresentação: [Acessar](https://docs.google.com/presentation/d/1hf5jq8iFGiDaf3u5UA4Jtd7wQ7eWWchfEn6Fvm0ArOM/edit?usp=sharing)
+
 ### 📖 Manuais do ACS (Ministério da Saúde)
 
 - 📘 [Manual do Agente Comunitário de Saúde](http://189.28.128.100/dab/docs/publicacoes/geral/manual_acs.pdf)
